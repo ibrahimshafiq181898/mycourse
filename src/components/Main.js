@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Accordian from "./Accordian";
 import "./Sidebar.css";
-import Video from "./VideoPlayer";
 import VideoPlayer from "./VideoPlayer";
 import axios from "axios";
 
