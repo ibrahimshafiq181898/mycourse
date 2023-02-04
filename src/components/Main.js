@@ -80,7 +80,7 @@ const Main = () => {
             Ut nec ante quis arcu porta tempus laoreet eu odio. Maecenas
             consectetur consequat iaculis. Vivamus sed lorem ex. Suspendisse
             potenti. Phasellus aliquet, nulla id accumsan sollicitudin, sem elit
-            blandit turpis, a ultrices eros neque vitae dolors.
+            blandit turpis, a ultrices eros neque vitae dolor.
           </p>
         </div>
       </div>
