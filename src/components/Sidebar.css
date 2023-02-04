@@ -1,0 +1,210 @@
+.accordion {
+  width: 100%;
+}
+.Main-Container {
+  display: flex;
+}
+.videoplayer {
+  width: 700px;
+}
+.CourseHeading {
+  width: 1030px;
+  height: 50px;
+  border-bottom: 2px solid darkgray;
+  padding: 10px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.stars{
+  margin-right: 100px;
+}
+.prevbtn{
+  width: 40px;
+  height: 40px;
+}
+.nextbtn{
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.star-icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10%201.3l2.388%206.72-6.67%202.44-6.67-2.44L10%201.3m0-1.3L0%208.96%208.96%2020%2010%2018.7%202.04%208.96%2010%201.3z%22%20fill%3D%22%23000000%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.starsbtn{
+  display: flex;
+  margin-right: 100px;
+}
+.titlediv {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.btndiv{
+  margin-left: 580px;
+}
+.CourseHeading h3 {
+  font-size: 16px;
+  color: gray;
+  margin-top: -6px;
+}
+.CourseHeading h1 {
+  font-size: 19px;
+  color: black;
+}
+.contentdiv {
+  cursor: pointer;
+}
+.accordion-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f7f7f7;
+  padding: 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.accordion-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.accordion-header .fa-angle-down {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  transition: all 0.3s;
+}
+
+.accordion-body {
+  background-color: #fff;
+  padding: 15px;
+  display: none;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  margin-top: 17px;
+}
+.content {
+  display: flex;
+}
+.content p {
+  margin-left: 10px;
+}
+.coursedetails {
+  width: 1040px;
+  height: auto;
+}
+.p1a {
+  font-size: 16px;
+  margin-right: 20px;
+}
+.detailmargin {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 55px;
+}
+.detailmargin h5 {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.show .accordion-body {
+  display: block;
+}
+
+.show .fa-angle-down {
+  transform: rotate(180deg);
+}
+
+.sidebar {
+  background-color: #f3f3f3;
+  padding: 20px;
+  width: 300px;
+  position: fixed;
+  top: 70px;
+  bottom: 0;
+  right: 0;
+  overflow-y: auto;
+  margin-top: -6px;
+}
+
+.sidebar-title {
+  text-align: left;
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.accordion-item {
+  border: none !important;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: -19px;
+  width: 338px;
+  background-color: lightgray;
+  margin-top: -20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  background-color: lightgray;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.accordion-header h2 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-header button {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.fas {
+  font-size: 18px;
+}
+
+.accordion-body {
+  background-color: #fff;
+  padding: 20px;
+  display: none;
+}
+
+.accordion-body.show {
+  display: block;
+}
+
+.expanded {
+  transform: rotate(180deg);
+}
