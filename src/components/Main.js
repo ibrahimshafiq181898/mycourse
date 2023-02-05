@@ -10,7 +10,7 @@ const Main = () => {
 
   useEffect(() => {
     axios
-      .get("https://mycourseapp.herokuapp.com/sections")
+      .get(`https://mycourseapp.herokuapp.com/sections`)
       .then((res) => {
         setApiData(res.data);
         setSelectedVideo(res.data[0].video_link);
